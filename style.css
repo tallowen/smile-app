@@ -1,0 +1,44 @@
+html, body, a, div {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #app-link, #container {
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#container {
+  background: black;
+}
+
+#app-link {
+  display: block;
+}
+
+#header {
+  height: 10%;
+  padding-top: 10%;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+#header, #hit-and-run img, #app-store-badge img {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 980px;
+  display: block;
+}
+
+#hit-and-run img {
+  width: 100%;
+}
+
+#app-store-badge {
+  padding-top: 20%;
+}
