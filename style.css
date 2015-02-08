@@ -1,4 +1,4 @@
-html, body, a, div {
+html, body, a, h2, div {
   padding: 0;
   margin: 0;
 }
@@ -40,5 +40,11 @@ a:link {
 }
 
 #app-store-badge {
-  padding-top: 20%;
+  margin-top: 5%;
+}
+
+@media (max-width: 980px) {
+  #app-store-badge {
+    margin-top: 20%;
+  }
 }
